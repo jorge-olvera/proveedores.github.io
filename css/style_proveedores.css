@@ -1,0 +1,6 @@
+html {font-family: sans-serif; text-align: center;}
+body {display: inline-block; text-align: left; font-weight: bold;}
+*:required, .obligatorio {border: thin solid blue;}
+form em {font-size: small;}
+output {font-weight: bold;}
+footer {font-size: small;}

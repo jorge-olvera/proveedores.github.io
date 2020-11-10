@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_proveedores.css">
+    <title>Proveedores</title>
+</head>
+
+<body>
+    <header>
+        <h1>Proveedores</h1>
+    </header>
+    <form action="javascript:proveedores();" id="forma">
+        <p><em>El borde azul indica obligatorio</em></p>
+        <p>
+            <label accesskey="C">
+                Clave
+                <input type="number" id="clave" required placeholder="1 a 10 digitos">
+            </label>
+            <br><output id="salidaClave"></output>
+        </p>
+        <p>
+            <label accesskey="N">
+                Nombre
+                <input type="text" id="nombre" required placeholder="1 a 50 caracteres">
+            </label>
+            <br><output id="salidaNombre"></output>
+        </p>
+        <p>
+            <label accesskey="T">
+                Telefono
+                <input type="tel" id="telefono" required placeholder="10 a 14 digitos">
+            </label>
+            <br><output id="salidaTelefono"></output>
+        </p>
+        <p>
+            <label accesskey="F">
+                Fecha
+                <input type="date" id="fecha" required placeholder="1 a 10 digitos">
+            </label>
+            <br><output id="salidaFecha"></output>
+        </p>
+        <p>
+            <input type="submit" value="Procesar" accesskey="P">
+            <input type="submit" value="Limpiar" accesskey="L">
+        </p>
+
+
+    </form>
+    <footer>Copyright &copy; 2020 Jorge Olvera Martinez.</footer>
+    <script src="js/CtrlProveedores.js"></script>
+</body>
+
+</html>
